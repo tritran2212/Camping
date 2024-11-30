@@ -1,0 +1,68 @@
+#activities {
+    /* bgc */
+    background-color: #faf4f2;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.activities__header {
+    text-align: center;
+}
+
+.activities__header p {
+    font-size: 30px;
+    color: #8d8d8d;
+}
+
+
+.activities__content {
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.card{
+    padding: 40px;
+    background-color: white;
+       border-radius: 10px;
+    text-align: center;
+    margin: 0 10px;
+    /* cố định kích thước chiều rộng  */
+}
+.card__img{
+    border-radius: 10px;
+    width: unset;
+}
+.card__title{
+    font-weight: 600;
+    font-size: 24px;
+}
+.card__btn{
+    padding: 8px 40px;
+    text-transform: capitalize;
+    border-radius: 9999px;
+    cursor: pointer;
+    border-color: transparent;
+}
+.view__all{
+    text-align: center;
+    margin-top: 20px;
+}
+.view__all button{
+    padding: 8px 40px;
+    border-radius: 9999px;
+    color:#e77053;
+    border: 1px solid currentColor;
+    background-color: transparent;
+    text-transform: capitalize;
+    display: inline-block;
+    text-align: center;
+}
+.btn-heart{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 8px;
+    color:#e77053
+}

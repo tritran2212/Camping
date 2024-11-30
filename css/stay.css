@@ -1,0 +1,36 @@
+#contact{
+    background-color: #f8e1db;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    color: #8d8d8d;
+}
+.contact__container{
+    display: flex;
+
+}
+.contact__left, .contact__right{
+    width: 50%;
+    padding: 20px 60px;
+}
+.contact__left img{
+    width: 100%;
+}
+
+.contact__right{
+    padding: 70px;
+}
+.contact__right p{
+    margin: 12px 0 30px;
+}
+.contact__right h3{
+    margin-bottom: 21px;
+}
+.contact__detail{
+    display: flex;
+
+}
+.contact__us i{
+    color:#e77053;
+    font-size: 25px;
+    margin-right: 10px;
+}

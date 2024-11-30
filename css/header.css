@@ -1,0 +1,102 @@
+/* 100% */
+header {
+    background-color: #f8e1db;
+    padding-top: 10px;
+}
+
+.container {
+    /* Giới hạn là kích thước của thẻ */
+    max-width: 1440px;
+    /* Căn chỉnh khối vào giữa màn hình */
+    /* C1 ::: */
+    /* margin: 0 auto; */
+    /* C2 ::: */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* @TODO */
+    /* padding: 10px; */
+}
+
+/* 
+- Những thẻ <li> có thẻ cha <header>
+*/
+header li {
+    display: inline;
+}
+
+header nav a {
+    /* Không xét gạch chân của thẻ */
+    text-decoration: none;
+
+    color: black;
+}
+
+header ul {
+    /* reset của browser */
+    padding-left: 0;
+    margin: 0;
+}
+
+/* 
+    Box Model
+    *kích thước: width / height
+    - margin: Không tính vào kích thước của element (thẻ). Tạo khoảng cách giữa các element với nhau.
+    - padding: Tính vào kích thước của element.
+    - border: Tính vào kích thước của element.
+*/
+
+/* 
+    inline:
+    - không xét được width, height
+    - không ăn padding top bottom
+*/
+
+/* header nav ul a {
+
+    border: 2px solid red;
+
+    padding: 10px;
+
+    margin: 10px;
+
+} */
+
+/**
+
+__: 10px =>                tlrb: 10px;
+__: 10px 20px =>           tb: 10px     lr:20px
+__: 10px 20px 30px =>      t: 10px      lr: 20px     b: 30px
+__: 10px 20px 30px 40px => t: 10px   r: 20px   b: 30px   l: 40px
+
+    top
+left     right
+    bottom    
+
+*/
+
+header nav ul a {
+    /* width: 80px;
+    height: 50px; */
+
+    /* 
+        Tăng kích thước element để người dùng dễ dàng tương tác.
+    */
+
+    /* short hand */
+    padding: 10px;
+
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; */
+
+    display: inline-block;
+}
+
+header .logo {
+    padding-left: 10px;
+}
+
+
+

@@ -1,0 +1,10 @@
+body {
+    /* 
+    - reset những thuộc tính mặc định của trình duyệt
+     */
+    margin: 0;
+    box-sizing: border-box;
+
+    /* Toàn bộ element đều có font Roboto */
+    font-family: 'Roboto';
+}
